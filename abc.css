@@ -1,0 +1,70 @@
+body {
+    background: linear-gradient(to right, #42275a, #734b6d);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container-fluid {
+    background-color: aqua;
+    background-size: cover;
+    font-weight: 600;
+}
+
+input {
+    background-color: #734b6d;
+}
+
+#name {
+    text-align: center;
+    font-size: 50px;
+    background-image: url("th.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main {
+    background: radial-gradient(#fff, #ffd6d6);
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+img {
+    height: auto;
+    width: 100%;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+.img {
+    text-align: center;
+    padding: 20px;
+}
+
+.table-container {
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 15px;
+    overflow: auto; /* Add overflow for small screens */
+}
+
+table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 500px; /* Adjust the maximum width as needed */
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}

@@ -1,0 +1,69 @@
+/* Reset default margins and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply a background color to the entire page */
+  body {
+    background: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the navigation bar */
+  .navbar {
+    background: #734b6d;
+    color: white;
+  }
+  
+  .navbar a {
+    color: white;
+  }
+  
+  /* Style the main content */
+  .main {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #42275a;
+  }
+  
+  /* Style the contact form */
+  .contact-form {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    background: #734b6d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #42275a;
+  }
+  

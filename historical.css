@@ -1,0 +1,76 @@
+/* Reset default margins and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply a background color to the entire page */
+  body {
+    background: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the navigation bar */
+  .navbar {
+    background: #734b6d;
+    color: white;
+  }
+  
+  .navbar a {
+    color: white;
+  }
+  
+  /* Style the main content */
+  .main {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #42275a;
+    font-size: 2rem;
+  }
+  
+  /* Style individual historical places */
+  .historical-place {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  p {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  /* Responsive styles for historical places */
+  @media (min-width: 768px) {
+    .historical-place {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    img {
+      max-width: 45%;
+    }
+  
+    p {
+      flex: 1;
+      margin: 0 20px;
+    }
+  }
+  
